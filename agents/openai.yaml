@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "Skill Validator"
+  short_description: "Validate skill folders and rehearsal prompts"
+  default_prompt: "Use $skill-validator to check a skill folder, verify its format, and rehearse one real task."
+
+policy:
+  allow_implicit_invocation: true
