@@ -8,6 +8,21 @@ description: Validate skill folders by checking format, triggerability, workflow
 Validate a skill in layered passes: structure, triggerability, workflow quality, and best-practice alignment.
 Use `scripts/validate_skill.js` for the structural check, then review the skill content against the checklist below.
 
+## Skill Compliance Checklist
+
+- [ ] `SKILL.md` exists
+- [ ] Valid YAML frontmatter
+- [ ] `name` exists
+- [ ] `description` exists
+- [ ] `description` explains trigger
+- [ ] workflow has clear steps
+- [ ] inputs defined
+- [ ] outputs defined
+- [ ] scripts documented
+- [ ] references linked
+- [ ] examples provided
+- [ ] failure cases handled
+
 ## Use this skill when
 
 - A skill was just created or edited.
@@ -20,7 +35,7 @@ Use `scripts/validate_skill.js` for the structural check, then review the skill 
 1. Confirm the target folder exists and is the intended skill root.
 2. Confirm `SKILL.md` or `skill.md` exists at the root.
 3. Run `node scripts/validate_skill.js <skill_dir>` to check structure and frontmatter.
-4. Review the skill against the 7 quality checks below.
+4. Review the skill against the compliance checklist and quality checks below.
 5. Run one representative task prompt through the skill.
 6. Fix issues and repeat until the skill behaves correctly.
 
@@ -91,3 +106,19 @@ Use `scripts/validate_skill.js` for the structural check, then review the skill 
 - `references/compatibility.md` for Codex and Claude packaging rules.
 - `references/example-prompts.md` for repeatable test prompts.
 - `scripts/validate_skill.js` for automated structure checks.
+
+# Validation workflow
+
+1. Confirm the folder path is the intended skill root.
+2. Confirm `SKILL.md` or `skill.md` exists at the root.
+3. Run `node scripts/validate_skill.js <skill_dir>` to parse frontmatter and check structure.
+4. Review the skill against the compliance checklist and the 7 quality checks.
+5. Run one realistic task prompt.
+6. Record whether the skill was triggered and whether the output matched the workflow.
+7. Fix the smallest issue and rerun.
+
+## Suggested pass/fail rules
+
+- **Pass**: required files exist, frontmatter parses, the compliance checklist is complete, the description triggers correctly, the workflow is complete, instructions are executable, ambiguity is low, test cases exist, and the skill follows best practices.
+- **Warn**: the skill works but needs wording, packaging, or portability adjustments.
+- **Fail**: required files are missing, frontmatter is invalid, the skill does not trigger, or the workflow cannot complete.
