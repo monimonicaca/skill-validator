@@ -1,4 +1,4 @@
-﻿---
+---
 name: skill-validator
 description: Validate skill folders by checking format, triggerability, workflow completeness, executability, ambiguity, test coverage, and Skill best practices.
 ---
