@@ -7,6 +7,6 @@ These checks must pass for the skill to be considered structurally sound.
 - [ ] `name` exists
 - [ ] `description` exists
 - [ ] Workflow has clear steps
-- [ ] Scripts are documented
-- [ ] References are linked
+- [ ] Scripts if exist are documented
+- [ ] References if exist are linked
 - [ ] Failure cases are handled
