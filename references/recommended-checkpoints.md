@@ -1,6 +1,6 @@
 ﻿# Recommended checkpoints
 
-These checks should pass unless the skill has a strong reason to defer them.
+These checks are not required to validate the skill, but they are recommended for a strong skill.
 
 - [ ] `description` explains trigger
 - [ ] Inputs are defined
