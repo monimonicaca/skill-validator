@@ -2,3 +2,4 @@
 /openspec/*
 !/openspec/.gitignore
 /require/*
+/tests/*

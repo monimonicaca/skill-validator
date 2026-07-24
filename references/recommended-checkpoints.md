@@ -9,6 +9,4 @@ These checks are not required to validate the skill, but they are recommended fo
 - [ ] Workflow covers the end-to-end flow
 - [ ] Instructions are executable
 - [ ] Instructions are unambiguous
-- [ ] At least one realistic rehearsal prompt exists
-- [ ] Reporting uses pass, warn, or fail
-- [ ] Best-practice checks are reviewed
+

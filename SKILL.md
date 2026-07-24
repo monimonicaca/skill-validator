@@ -1,11 +1,11 @@
 ---
 name: skill-validator
-description: Validate skill folders by checking format, triggerability, workflow completeness, executability, ambiguity, test coverage, and Skill best practices.
+description: Judge skills' quality by checking format, triggerability, workflow completeness, executability, ambiguity, and Skill best practices.
 ---
 
 # Skill Validator
 
-Validate a skill in layered passes: structure first, then the tiered checkpoints, then rehearsal and best-practice review.
+Judge a skill in layered passes: structure first, then the tiered checkpoints, then rehearsal and best-practice review.
 Use `scripts/validate_skill.js` for the structural check, then follow the reference documents below.
 
 ## Checkpoint tiers
@@ -16,7 +16,6 @@ Use `scripts/validate_skill.js` for the structural check, then follow the refere
 ## Supporting references
 - `references/workflow.md` for validation order and reporting
 - `references/compatibility.md` for Codex and Claude packaging rules
-- `references/example-prompts.md` for rehearsal prompts
 - `scripts/validate_skill.js` for the automated structure check
 
 ## Validation flow

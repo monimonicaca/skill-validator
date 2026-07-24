@@ -8,7 +8,7 @@
 6. Review the skill against the optional checkpoints.
 7. Run one realistic task prompt.
 8. Record whether the skill was triggered and whether the output matched the workflow.
-9. Fix the smallest issue and rerun.
+9. Finish the validation.
 
 ## Suggested pass/fail rules
 
