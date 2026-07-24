@@ -1,6 +1,6 @@
 ---
 name: skill-validator
-description: Judge skills' quality by checking format, triggerability, workflow completeness, executability, ambiguity, and Skill best practices.
+description: Judge skills' quality by format, triggerability, workflow completeness, executability, ambiguity, and Skill best practices.Use when user ask to validate a skill.
 ---
 
 # Skill Validator
