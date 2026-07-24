@@ -1,3 +1,4 @@
 # Ignore OpenSpec working files
 /openspec/*
 !/openspec/.gitignore
+/require/*
